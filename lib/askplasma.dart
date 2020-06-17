@@ -26,28 +26,28 @@ class _DashBoardState extends State<DashBoard> {
 
   Future<bool> _getPosts() async {
     if (getgroup == 'apositive') {
-      serviceURL = "http://54.160.108.45/apis/a-positive-donor/";
+      serviceURL = "PLEASE CONTACT FOR API LINK";
     }
     if (getgroup == 'anegative') {
-      serviceURL = "http://54.160.108.45/apis/a-negative-donor/";
+      serviceURL = "PLEASE CONTACT FOR API LINK";
     }
     if (getgroup == 'bpositive') {
-      serviceURL = "http://54.160.108.45/apis/b-positive-donor/";
+      serviceURL = "PLEASE CONTACT FOR API LINK";
     }
     if (getgroup == 'bnegative') {
-      serviceURL = "http://54.160.108.45/apis/b-negative-donor/";
+      serviceURL = "PLEASE CONTACT FOR API LINK";
     }
     if (getgroup == 'abpositive') {
-      serviceURL = "http://54.160.108.45/apis/ab-positive-donor/";
+      serviceURL = "PLEASE CONTACT FOR API LINK";
     }
     if (getgroup == 'abnegative') {
-      serviceURL = "http://54.160.108.45/apis/ab-negative-donor/";
+      serviceURL = "PLEASE CONTACT FOR API LINK";
     }
     if (getgroup == 'opositive') {
-      serviceURL = "http://54.160.108.45/apis/o-positive-donor/";
+      serviceURL = "PLEASE CONTACT FOR API LINK";
     }
     if (getgroup == 'onegative') {
-      serviceURL = "http://54.160.108.45/apis/o-negative-donor/";
+      serviceURL = "PLEASE CONTACT FOR API LINK";
     }
 
     var response = await http.get(serviceURL);

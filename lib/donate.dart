@@ -16,12 +16,11 @@ class plasmaDonate extends StatefulWidget {
 }
 
 class _plasmaDonateState extends State<plasmaDonate> {
-  BecomeDonorModel userCheck;
   var confirmation = "";
 
   Future<BecomeDonorModel> createUser(String name, blood_group,
       last_date_of_blood_donation, address, phone_number, city, gender) async {
-    final String apiUrl = 'http://54.160.108.45/become-donor/api/';
+    final String apiUrl = 'PLEASE CONTACT FOR API LINK';
     final response = await http.post(apiUrl, body: {
       "name": name,
       "blood_group": blood_group,
@@ -235,8 +234,6 @@ class _plasmaDonateState extends State<plasmaDonate> {
                               gender);
 
                           setState(() {
-                            userCheck = bd;
-
                             confirmation =
                                 "Applied Successfully, We will contact you";
                           });
